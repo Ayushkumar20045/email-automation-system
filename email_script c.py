@@ -54,7 +54,7 @@ msg['To'] = email
 
 # Send email
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-server.login("ayush22kumar2004@gmail.com", "@Ayush#6390")
+server.login("ayush22kumar2004@gmail.com", "@Ayush")
 server.send_message(msg)
 server.quit()
 
