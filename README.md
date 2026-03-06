@@ -55,6 +55,7 @@ cd email-automation-system
 2️⃣ Install Dependencies
 
  pip install -r requirements.txt
+
 3️⃣ Configure Email Credentials
 
 ⚠️ Use Gmail App Password  
@@ -96,4 +97,5 @@ This system automates job applications by sending consistent, personalized outre
 Ayush Kumar**
 
  
+
 
