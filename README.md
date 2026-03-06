@@ -1,16 +1,23 @@
 🚀 Automated Email Outreach System
 
 An intelligent Python-based automation system that sends personalized emails to HRs daily using dynamic data and scheduling via cron.
+
 Designed to scale job outreach efficiently while maintaining personalization.
 
 ⸻
 
 📌 Features
+
 	•	📧 Sends automated personalized emails daily
+	
 	•	🔄 Dynamic data fetching from Google Sheets / CSV
+	
 	•	⏰ Scheduled execution using cron (macOS)
+	
 	•	🧠 Template-based email customization
+	
 	•	🚫 Prevents repetitive manual work
+	
 	•	📈 Scalable for large HR datasets
 
 ⸻
@@ -40,17 +47,28 @@ Designed to scale job outreach efficiently while maintaining personalization.
 Setup Instructions
 
 1️⃣ Clone Repository
+
 git clone https://github.com/Ayushkumar20045/email-automation-system.git
+
 cd email-automation-system
+
 2️⃣ Install Dependencies
+
  pip install -r requirements.txt
 3️⃣ Configure Email Credentials
+
 ⚠️ Use Gmail App Password  
+
 server.login("your_email@gmail.com", "your_app_password")
+
 4️⃣ Run Script Manually
+
 python3 email_script.py
+
 5️⃣ Automate Using Cron (Mac)
+
 crontab -e
+
 0 10 * * * /opt/homebrew/bin/python3 /path/to/email_script.py
 
 
@@ -62,9 +80,14 @@ This system automates job applications by sending consistent, personalized outre
 ⸻
 
 🚀 Future Improvements
+
+	
 	•	📊 Email tracking system (logs/dashboard)
+	
 	•	⏱ Randomized sending time (human-like behavior)
+	
 	•	🤖 AI-based personalization (LLM integration)
+	
 	•	🌐 Web dashboard (Streamlit)
 
 ⸻
@@ -73,3 +96,4 @@ This system automates job applications by sending consistent, personalized outre
 Ayush Kumar**
 
  
+
