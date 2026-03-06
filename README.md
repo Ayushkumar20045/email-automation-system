@@ -39,21 +39,6 @@ Designed to scale job outreach efficiently while maintaining personalization.
 	3.	✍️ Generate personalized email using template
 	4.	📤 Send email using SMTP
 	5.	⏰ Cron job triggers script automatically every day
- 
-  email-automation-system
-
-
-│
-
-├── email_script.py
-
-├── requirements.txt
-
-├── README.md
-
-├── .gitignore
-
-└── sample_data.csv
 
 Setup Instructions
 
@@ -108,6 +93,7 @@ This system automates job applications by sending consistent, personalized outre
 Ayush Kumar**
 
  
+
 
 
 
