@@ -23,6 +23,7 @@ Designed to scale job outreach efficiently while maintaining personalization.
 ⸻
 
 🛠 Tech Stack
+
 	•	Python
 	•	Pandas
 	•	SMTP (Gmail)
@@ -32,18 +33,22 @@ Designed to scale job outreach efficiently while maintaining personalization.
 ⸻
 
 ⚙️ How It Works
+
 	1.	📊 Fetch HR data (Name, Email, Company) from CSV/Google Sheets
 	2.	🔁 Select one HR daily using rotation logic
 	3.	✍️ Generate personalized email using template
 	4.	📤 Send email using SMTP
 	5.	⏰ Cron job triggers script automatically every day
+ 
   email-automation-system/
+
 │
 ├── email_script.py
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
 └── sample_data.csv
+
 Setup Instructions
 
 1️⃣ Clone Repository
@@ -97,5 +102,6 @@ This system automates job applications by sending consistent, personalized outre
 Ayush Kumar**
 
  
+
 
 
